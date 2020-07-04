@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+}
+#base{
+    height: 100%;
+    background-image: linear-gradient(to right, #7b4397,#dc2430);
+}
+#line1{
+    position: absolute;
+    top: 60px;
+    left: 8%;
+    opacity: 0.5;
+    width: 91.8%;
+}
+#form {
+    position: absolute;
+    left: 60%;
+    top: 15%;
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    opacity: 0.4;
+    border-radius: 40px;
+}
+#text {
+    background-color: white;
+    opacity: 0.5;
+    height: 50px;
+    width: 350px;
+    position: absolute;
+    left: 15%;
+    top: 25%;
+    border-radius: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+#mail {
+    background-color: white;
+    opacity: 0.5;
+    height: 50px;
+    width: 350px;
+    position: absolute;
+    left: 15%;
+    top: 45%;
+    border-radius: 50px;
+    font-size: 20px;
+    text-align: center;
+}#age {
+    background-color: white;
+    opacity: 0.5;
+    height: 50px;
+    width: 350px;
+    position: absolute;
+    left: 15%;
+    border-radius: 50px;
+    top: 65%;
+    font-size: 20px;
+    text-align: center;
+}
+#submit {
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left : 75%;
+    top: 80%;
+    border-radius: 50px;
+}
+::-webkit-input-placeholder{
+    text-align: center;
+    font-family:inherit;
+    font-size: 17px;
+}
+#rotate {
+    position: absolute;
+    left:-120%;
+    bottom: 190px;
+    height: 300px;
+    width: 350px;
+}
+
+#subtitle {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    left: -135%;
+    bottom: -0%;
+    font-family:monospace;
+    text-align: center;
+}
+
+#sign {
+    color: white;
+    font-size: 40px;
+    left: 20%;
+    top: -3%;
+    opacity: 0.8;
+    position: absolute;
+    font-family:cursive;
+    text-align: center;
+}
+
+#logo {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    height: 70px;
+    width: 90px;
+}
+
+#title {
+    color: orange;
+    font-weight: bold;
+    position: absolute;
+    left: 110px;
+    top: 20px;
+}
